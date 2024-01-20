@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.login {
+  width: 100%;
+  height: 100%;
+  margin-top: 5rem;
+}
+
+.JioQuantum {
+  display: flex;
+  margin-top: 9rem;
+  margin-left: 12rem;
+}
+
+.PasswordStrength {
+  margin-top: 0.5rem;
+  .Weak {
+    color: #d60416;
+  }
+  .Medium {
+    color: #ffcf24;
+  }
+  .Strong {
+    color: #135610;
+  }
+}
+
+.validateOtp {
+  display: flex;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  .success {
+    color: #1ae310;
+  }
+  .fail {
+    color: #f0070f;
+  }
+  justify-content: center;
+}
+
+.inputField:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.isValid {
+  color: #f0070f;
+  margin-top: 0.5rem;
+}
+
+.QuantumText {
+  margin-left: 1.5rem;
+}
+
+.submit {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 2.5rem;
+  border-radius: 15.5rem;
+  justify-content: center;
+  background-color: #0f3cc9;
+}
+
+.fogetPassword {
+  color: #4169e1;
+  font-weight: bold;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.submitBtn {
+  width: 100%;
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-radius: 15.5rem;
+  justify-content: center;
+  background-color: #0f3cc9;
+}
+
+.forgotBtn {
+  width: 100%;
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  border-radius: 15.5rem;
+  justify-content: center;
+  background-color: #0f3cc9;
+}
+
+.heading {
+  text-align: left;
+  margin-bottom: 3.125rem;
+  letter-spacing: 0.125rem;
+  text-shadow: 0.0625rem 0 #000;
+  .heading1 {
+    font: normal normal bold 2.25rem/1rem system-ui;
+  }
+  .heading2 {
+    font: normal normal bold 2.25rem/1rem system-ui;
+  }
+  .heading3 {
+    font: normal normal bold 2.25rem/1rem system-ui;
+  }
+}
+
+.details h6 {
+  text-align: left;
+  margin-bottom: 0.5rem;
+  font: normal normal bold 1rem/0.7rem system-ui;
+}
+
+.inputField {
+  border: none;
+  height: 1.5rem;
+  padding-left: 0;
+  border-radius: 0;
+  letter-spacing: 0.05rem;
+  border-bottom: 0.125rem solid #000;
+  font: normal normal medium 1.2rem/0.7rem system-ui;
+}
+
+.details {
+  width: 25rem;
+  padding: 2rem;
+  margin-left: 14rem;
+  border-radius: 1rem;
+  padding-bottom: 0.5rem;
+  box-shadow: 0.125rem 0.125rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+
+.account-type {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rem;
+  margin-right: 5rem;
+  margin-top: 5rem;
+}
+
+.account-type h1 {
+  margin-bottom: 4rem;
+  margin-left: 0.75rem;
+  font: normal normal bold 2.25rem/1rem system-ui;
+}
+
+.business-btn {
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+  background-color: #08fc29;
+}
+
+.personal-btn {
+  border-radius: 2rem;
+  background-color: #fc9a08;
+}
+
+.personal-btn:hover {
+  color: #000000 !important;
+  border-color: none !important;
+}
+
+.business-btn{
+  color: #000000 !important;
+  border-color: none !important;
+}
